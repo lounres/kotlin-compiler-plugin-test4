@@ -1,8 +1,12 @@
 package foo.bar
 
+import DebugLog
+
+
+@DebugLog
 fun box() {
     while (true) {
-        if (true) return
+        if (true) break
     }
 }
 

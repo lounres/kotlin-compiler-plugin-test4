@@ -1,11 +1,11 @@
 FILE: simple.kt
     package foo.bar
 
-    public final fun box(): R|kotlin/Unit| {
+    @R|DebugLog|() public final fun box(): R|kotlin/Unit| {
         while(Boolean(true)) {
             when () {
                 Boolean(true) ->  {
-                    ^box Unit
+                    break@@@[Boolean(true)]
                 }
             }
 

@@ -1,5 +1,1 @@
-package bar.baz
-
-interface Foo {
-    object Boo
-}
+annotation class DebugLog
