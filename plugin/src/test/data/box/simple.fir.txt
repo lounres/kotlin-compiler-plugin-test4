@@ -1,0 +1,23 @@
+FILE: simple.kt
+    package foo.bar
+
+    public final fun box(): R|kotlin/Unit| {
+        while(Boolean(true)) {
+            when () {
+                Boolean(true) ->  {
+                    ^box Unit
+                }
+            }
+
+        }
+
+    }
+    public abstract interface Foo : R|kotlin/Any| {
+        public final object Boo : R|kotlin/Any| {
+            private constructor(): R|foo/bar/Foo.Boo| {
+                super<R|kotlin/Any|>()
+            }
+
+        }
+
+    }
